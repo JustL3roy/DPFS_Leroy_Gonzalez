@@ -1,0 +1,214 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(imagenes/e8a03a383317aedc2fb7db3389534198.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    position: relative;
+    height: 470px;
+    border-style: groove;
+    border-color: aqua;
+    border-width: 10px;
+    border-radius: 30px;
+    background-image: url(imagenes/7cc2cbe846157dbdcd6272680ddcf75d.jpg);
+    background-size: 100% 600px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-color: rgb(255, 128, 0);
+    color: #ff7300;
+    text-align: center;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px black;
+    margin: 0;
+    font-size: 60px;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px black;
+}
+
+h3{
+    text-shadow: 2px 2px 4px black;
+    margin: 0;
+
+}
+
+h4{
+    position: absolute;
+    top: 22%;
+    right:1%;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchInput {
+    padding: 8px;
+    font-size: 16px;
+    border:none;
+    border-radius: 4px;
+    width: 200px;
+}
+
+#searchButton {
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: #ff9500;
+}
+
+.icons {
+    position: absolute;
+    top: 90%; /* Centra el icono verticalmente */
+    right: 4%;
+    transform: translateY(-50%); /* Ajuste para que se mantenga centrado */
+
+}          
+.icon {
+    position: absolute;
+    z-index: 1;
+    top: 90%; /* Centra el icono verticalmente */
+    right: 94%;
+    transform: translateY(-50%); /* Ajuste para que se mantenga centrado */
+
+}          
+
+.Bubbles{
+    display: flex;
+    position:absolute;
+    z-index: 2;
+    justify-content: space-between; /* Distribuye los iconos de manera uniforme */
+    align-items: center;  /* Alinea verticalmente los iconos */
+    width: 1390px; /* Puedes ajustar el ancho según lo que necesites */
+    height: 180px;
+    left:15px;
+}
+
+.perfil-grid{
+    display: grid;
+    background-image: url(imagenes/369f92e0b41e90565fb47a8a9fdad5da.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    border-style: solid;
+    border-color: rgb(0, 255, 255);
+    border-radius: 10px;
+    border-width: 5px ;
+}
+
+
+.perfil{
+    text-align: center;
+}
+
+
+
+
+i {
+    font-size: 24px;
+    margin: 0 15px; 
+}
+
+.productos {
+    padding: 50px 20px;
+    background-image: url(imagenes/369f92e0b41e90565fb47a8a9fdad5da.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+.productos h2 {
+    margin-bottom: 40px;
+}
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.producto-item {
+    background-color: white;
+    background-image: url(imagenes/39f725f93bd1476b708bfdc1c473552d.jpg);
+    background-size: cover;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.producto-item img {
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+.producto-item h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.producto-item p {
+    margin: 10px 0;
+}
+
+.producto-item button {
+    padding: 10px 15px;
+    background-color: #00b3ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.producto-item button:hover {
+    background-color: #ff9900;
+}
+footer
+ { background-color: #ff9900;
+    background-size: cover;
+    color: white; padding: 20px;
+     text-align: center;
+     border-radius: 5px;
+     }
+
+footer a 
+{ color: #007bff;
+     text-decoration: none;
+      margin: 0 10px;
+     }
+
+footer a{
+     text-decoration: underline;
+     }
+
+     
