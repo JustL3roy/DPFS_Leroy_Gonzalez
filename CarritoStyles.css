@@ -2,25 +2,26 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(imagenes/e8a03a383317aedc2fb7db3389534198.jpg);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 header {
     position: relative;
-    height: 410px;
-    border-style:solid;
-    border-color: rgb(13, 0, 255);
+    height: 350px;
+    border-style: solid;
+    border-color: rgb(0, 38, 255);
     border-width: 7px;
     border-radius: 30px;
     background-image: url(imagenes/7cc2cbe846157dbdcd6272680ddcf75d.jpg);
-    background-size: 100% 500px;
+    background-size: 100% 355px;
     background-position:top;
     background-repeat: no-repeat;
     background-attachment:local;
     background-color: rgb(255, 128, 0);
     color: #ff7300;
     text-align: center;
+    margin: 3px;
 }
 
 
@@ -35,24 +36,6 @@ h1 {
     margin: 0;
     font-size: 60px;
 }
-
-h2 {
-    text-shadow: 2px 2px 4px black;
-}
-
-h3{
-    text-shadow: 2px 2px 4px black;
-    margin: 0;
-
-}
-
-h4{
-    position: absolute;
-    top: 22%;
-    right:1%;
-    text-shadow: 2px 2px 4px black;
-}
-
 
 .search-bar {
     display: flex;
@@ -107,7 +90,7 @@ h4{
     align-items: center;  
     width: 93%; 
     left: 4%;
-    height: 60px;
+    height: 84px;
 }
 
 .perfil-grid{
@@ -117,11 +100,11 @@ h4{
     position: absolute;
     top: 10%;
     right: 2%;
+    padding: 10px;
     border-style: solid;
     border-color: rgb(0, 255, 255);
     border-radius: 10px;
     border-width: 5px ;
-    width: 10%;
 }
 
 
@@ -136,62 +119,80 @@ i {
     font-size: 24px;
     margin: 0 15px; 
 }
+main{
+    display: flex;
+}
 
-.productos {
-    padding: 50px 20px;
-    background-image: url(imagenes/369f92e0b41e90565fb47a8a9fdad5da.jpg);
-    background-repeat: no-repeat;
+.producto-compra{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 3px solid #78c1f5; 
+    border-radius: 8px; 
+    padding: 30px;
+    margin: 10px;
+    background-color: #E0E6EF; 
+    background-image: url(imagenes/9f485bf3f0eb1d02b674118962582800.jpg);
     background-size: cover;
-    text-align: center;
-    border-radius: 30px;
-    margin: 5px;
+    box-shadow: inset -3px -3px 0px #ffffff, 
+                inset 3px 3px 0px #6D8591, 
+                2px 2px 8px rgba(0, 0, 0, 0.2); 
+                width: 40%;
+                height: 90%;
 }
 
-.productos h2 {
-    margin-bottom: 40px;
+.producto-compra h2{
+    font-family: 'Tahoma', sans-serif; 
+    color: #1f3243; 
+    margin: 0;
 }
 
-.productos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+.producto-compra img{
+    width: 35%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    object-fit: cover; 
+    padding: 10px;
 }
 
-.producto-item {
-    background-color: white;
-    background-image: url(imagenes/39f725f93bd1476b708bfdc1c473552d.jpg);
+.total{
+    position: relative;
+    right: 250px;
+    border: 3px solid #78c1f5; 
+    border-radius: 8px; 
+    padding: 30px;
+    margin: 10px;
+    background-color: #E0E6EF; 
+    background-image: url(imagenes/e6b879281e01aed9299273f9cca1dc4d.jpg);
     background-size: cover;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    box-shadow: inset -3px -3px 0px #ffffff, 
+                inset 3px 3px 0px #6D8591, 
+                2px 2px 8px rgba(0, 0, 0, 0.2); 
+                width: 100%;
+                height: 30%;
 }
 
-.producto-item img {
-    max-width: 50%;
-    border-radius: 5px;
+.total h2{
+    font-family: 'Tahoma', sans-serif; 
+    color: #1f3243; 
+    margin: 0;
 }
 
-.producto-item h3 {
-    margin-top: 10px;
-    font-size: 1.5em;
-}
-
-.producto-item p {
-    margin: 10px 0;
-}
-
-.producto-item button {
-    padding: 10px 15px;
-    background-color: #00b3ff;
-    color: white;
-    border: none;
+.total button{
+    background-color: #DFE8F3;
+    border: 2px solid #8FA3BF;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-family: 'Tahoma', sans-serif;
     cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    color: #000;
+    box-shadow: inset -1px -1px 0px #ffffff, inset 1px 1px 0px #6D8591;
 }
 
-.producto-item button:hover {
-    background-color: #ff9900;
+.total button:hover{
+    background-color: #AFC1E6; 
+
 }
 
 footer
@@ -200,7 +201,7 @@ footer
     color: white; padding: 20px;
      text-align: center;
      border-radius: 5px;
-     margin: 13px;
+     margin: 156px;
      }
 
 footer a 
