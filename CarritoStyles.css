@@ -169,7 +169,7 @@ main{
     box-shadow: inset -3px -3px 0px #ffffff, 
                 inset 3px 3px 0px #6D8591, 
                 2px 2px 8px rgba(0, 0, 0, 0.2); 
-                width: 100%;
+                width: 130%;
                 height: 30%;
 }
 
@@ -188,6 +188,9 @@ main{
     cursor: pointer;
     color: #000;
     box-shadow: inset -1px -1px 0px #ffffff, inset 1px 1px 0px #6D8591;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
 }
 
 .total button:hover{
