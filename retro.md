@@ -23,3 +23,10 @@ Próximos pasos
 - Implementar autenticación y protección de rutas para mejorar la seguridad de la página.
 - Optimizar el rendimiento de la página utilizando mejores prácticas de carga de imágenes y archivos CSS.
 - Explorar el uso de frameworks de JavaScript, como React, para mejorar la interacción en la página.
+
+Actualización
+- La separación entre el front-end y el back-end ayudó a mantener el código más organizado y comprensible.
+-  La implementación de vistas parciales para elementos comunes como el header y footer facilitó la consistencia visual y funcional en todas las vistas del sistema.
+- Aunque se realizaron validaciones básicas en el front-end, sería recomendable reforzar las validaciones en el back-end para asegurarse de que los datos son seguros y válidos antes de ser guardados.
+- Faltó un manejo más robusto de errores. En caso de que fallara la subida de imágenes o que no se encontrara un producto para editar, hubiera sido útil agregar mensajes de error claros para guiar al administrador.
+- Aunque las validaciones en el front-end mejoran la experiencia de usuario, no pueden ser la única barrera para proteger el sistema. Aprendimos que debemos reforzar las validaciones y la seguridad en el lado del servidor.
