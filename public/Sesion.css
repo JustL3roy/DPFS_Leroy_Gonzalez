@@ -1,0 +1,126 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(imagenes/25aa1a16b78d63f639b04b8427d4f2d6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header{
+    display: flex;
+    color: #ff7300;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px black;
+    font-size: 30px;
+}
+
+main{
+    height: 100vh;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+}
+
+.login {
+    width: 600px;
+    height: 550px;
+            padding: 30px;
+            background-color: #D4D0C8;
+            border: 5px solid #808080;
+            background-image: url(imagenes/3abfd5cfbd16b881b1523b5c96bbc3e2.jpg);
+            background-size: cover;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+            border-radius: 8px;
+}
+
+/* Estilo del título */
+.login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo de los inputs y labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Estilo del botón de inicio de sesión */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilo del checkbox y los enlaces */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.options label {
+    font-size: 0.9rem;
+}
+
+.options a {
+    color: #9a7030;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 30px;
+        font-size: 1.2rem;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
