@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "aqua-Mouse",
+      "description": "Ratón de ordenador decorado con líquido",
+      "price": 15,
+      "category": "Tecnología",
+      "stock": 60,
+      "imageUrl": "Tangerine.com/public/imagenes/frutiger-aero-aqua-mouse-duck-1_cfdd7128-b886-4f0a-bfc6-8c6332652503.webp",
+      "createdAt": "2023-10-21",
+      "updatedAt": "2024-7-16",
+      "status": "Disponible"
+    },
+    {
+      "id": 2,
+      "name": "Silla sandía",
+      "description": "Mueble de sala de estar decorado como sandía",
+      "price": 30,
+      "category": "Muebles",
+      "stock": 100,
+      "imageUrl": "Tangerine.com/public/imagenes/4baad29d0fbbfe6394fa7e5106dd654c.jpg",
+      "createdAt": "2023-10-20",
+      "updatedAt": "2024-9-6",
+      "status": "Disponible"
+    },
+    {
+        "id": 3,
+      "name": "IDog",
+      "description": "Juguete inteligente",
+      "price": 60,
+      "category": "Tecnología",
+      "stock": 32,
+      "imageUrl": "Tangerine.com/public/imagenes/4baad29d0fbbfe6394fa7e5106dd654c.jpg",
+      "createdAt": "2023-10-28",
+      "updatedAt": "2024-2-7",
+      "status": "Disponible"
+    }
+  ]
+  

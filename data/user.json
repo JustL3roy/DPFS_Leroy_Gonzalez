@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "username": "ArtyPaladin",
+      "password": "FutureFunk2077",
+      "email": "Arty@example.com",
+      "fullName": "Arty User",
+      "role": "admin",
+      "createdAt": "2023-10-21",
+      "updatedAt": "2024-5-15",
+      "status": "active",
+      "address": {
+        "street": "123 Main St",
+        "city": "mexico",
+        "postalCode": "12345"
+      }
+    },
+    {
+      "id": 2,
+      "username": "MarioSpr42",
+      "password": "MammaMia64",
+      "email": "mario@example.com",
+      "fullName": "John Doe",
+      "role": "cliente",
+      "createdAt": "2024-1-16",
+      "updatedAt": "2024-9-11",
+      "status": "active",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Venecia",
+        "postalCode": "67890"
+      }
+    }
+  ]
+  
