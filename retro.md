@@ -30,3 +30,29 @@ Actualización
 - Aunque se realizaron validaciones básicas en el front-end, sería recomendable reforzar las validaciones en el back-end para asegurarse de que los datos son seguros y válidos antes de ser guardados.
 - Faltó un manejo más robusto de errores. En caso de que fallara la subida de imágenes o que no se encontrara un producto para editar, hubiera sido útil agregar mensajes de error claros para guiar al administrador.
 - Aunque las validaciones en el front-end mejoran la experiencia de usuario, no pueden ser la única barrera para proteger el sistema. Aprendimos que debemos reforzar las validaciones y la seguridad en el lado del servidor.
+
+sprint 5
+Lo que salió bien:
+-Flujo de trabajo claro: La estructura de las rutas de registro, login, y logout se implementó con éxito, proporcionando una experiencia de usuario consistente.
+
+-Seguridad: El uso de bcrypt para encriptar las contraseñas y express-session para manejar las sesiones mejoró la seguridad general del sitio.
+
+-Modularidad: La implementación de middleware para proteger las rutas permitió una gestión más organizada y reutilizable del código.
+
+-Persistencia de sesiones: La funcionalidad de "recordar al usuario" funcionó bien para mejorar la experiencia de usuario, permitiendo mantener la sesión abierta.
+
+Lecciones aprendidas:
+-Importancia de la seguridad: La seguridad en la autenticación y manejo de contraseñas es crítica para proteger la integridad del sistema y los datos de los usuarios.
+
+-Modularidad en el código: Dividir la lógica en middleware y funciones reutilizables hace que el mantenimiento del código sea más fácil y rápido.
+
+-Gestión de sesiones y cookies: Aprender cómo configurar sesiones y cookies adecuadamente puede marcar una gran diferencia en la usabilidad y seguridad.
+
+Acciones para el futuro:
+-Integrar un framework de autenticación: Usar passport.js u otro framework de autenticación en proyectos futuros para reducir la complejidad de la implementación.
+
+-Mejorar el almacenamiento de datos: Considerar mover el almacenamiento de usuarios de un archivo JSON a una base de datos real (como MongoDB o PostgreSQL) para mayor robustez.
+
+-Pruebas de seguridad: Implementar herramientas de auditoría de seguridad para identificar posibles fallos y mejorar la protección del sistema.
+
+-Documentación y guías: Crear documentación interna sobre cómo se gestionan las sesiones y la autenticación para facilitar el trabajo en equipo.
